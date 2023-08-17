@@ -1,0 +1,8 @@
+<h1>Bookmarks#new</h1>
+<p>Find me in app/views/bookmarks/new.html.erb</p>
+<h1>New Bookmaker</h1>
+<%= simple_form_for [@restaurant, @review] do |f| %>
+  <%= f.input :comment %>
+  <%# select le movie à bookmark %>
+  <%= f.submit "Bookmark", class: "btn btn-primary" %>
+<% end %>

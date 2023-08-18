@@ -3,7 +3,7 @@
     <h1><%= @list.name %></h1>
   </div>
   <span class="movie-tag"><%= pluralize(@list.movies.size, "movie") %></span>
-  <span class="btn back-btn"><%=link_to "My lists", lists_path%></span>
+  <span class="btn back-btn"><%=link_to "My lists", root_path%></span>
 </div>
 <div class="container mb-5">
   <div class="d-flex justify-content-between my-4">

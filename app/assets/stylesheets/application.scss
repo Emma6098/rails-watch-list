@@ -2,6 +2,7 @@
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
+// @import "config/shared";
 
 // External libraries
 @import "bootstrap";
@@ -11,69 +12,12 @@
 @import "components/index";
 @import "pages/index";
 
-.card-movie {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  margin-bottom: 20px;
-}
 
-.card-movie > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
+// curl https://github.com/lewagon/rails-watch-list/blob/day-one-importmaps/app/assets/images/list_background.jpg?raw=true > \
+//   app/assets/images/list_background.jpg
 
-.card-movie h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
+//   curl https://github.com/lewagon/rails-watch-list/blob/day-one-importmaps/app/assets/images/cover.jpg?raw=true > \
+//   app/assets/images/cover.jpg
 
-.card-movie p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-movie .card-description {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
-
-.card-trip {
-  overflow: hidden;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.card-trip > img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-}
-
-.card-trip h2 {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.card-trip p {
-  font-size: 12px;
-  opacity: .7;
-  margin: 0;
-}
-
-
-.card-trip .card-trip-infos {
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  position: relative;
-}
+//   curl https://github.com/lewagon/rails-watch-list/blob/day-one-importmaps/app/assets/images/popcorn.png?raw=true > \
+//   app/assets/images/popcorn.png
